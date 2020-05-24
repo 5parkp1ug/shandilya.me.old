@@ -25,10 +25,6 @@ module.exports = {
         link: `/blog`,
       },
       {
-        name: `About`,
-        link: `/about`,
-      },
-      {
         name: `Contact`,
         link: `/contact`,
       }
