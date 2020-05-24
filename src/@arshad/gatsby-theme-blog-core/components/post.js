@@ -8,7 +8,7 @@ import { DiscussionEmbed } from "disqus-react";
 
 export default ({ title, excerpt, image, tags, caption, date, body, slug }) => {
   const disqusConfig = {
-    shortname: process.env.GATSBY_DISQUS_NAME,
+    shortname: "shandilya",  // temp fix to load disqus
     config: { identifier: slug, title },
   };
 
