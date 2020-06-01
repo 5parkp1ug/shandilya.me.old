@@ -57,5 +57,12 @@ module.exports = {
     `@arshad/gatsby-theme-blog-core`,
     `@arshad/gatsby-theme-page-core`,
     `@arshad/gatsby-theme-phoenix`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-74389110-2",
+      },
+    },
   ],
 }
