@@ -1,9 +1,10 @@
 ---
 title: Say Hello
-excerpt: Enim nobis cupiditate velit pariatur laborum voluptatem.
+excerpt: Drop me a message.
 ---
+> If you don't get an answer immediately, I might be travelling through middle of nowhere. I will get back to you ASAP. That's a promise!!!
 
-<form action="" class="my-8 md:my-12 md:w-2/3 mx-auto">
+<form action="" class="my-8 md:my-12 md:w-2/3 mx-auto" name="contact" method="POST" data-netlify="true">
   <div class="md:flex">
     <div class="md:w-1/2 md:mr-2 md:mr-4">
       <label for="name">Name</label>
@@ -16,11 +17,7 @@ excerpt: Enim nobis cupiditate velit pariatur laborum voluptatem.
   </div>
   <div class="mt-8">
     <label for="subject">Subject</label>
-    <select name="subject" id="subject">
-      <option value="">Select</option>
-      <option value="">Select</option>
-      <option value="">Select</option>
-    </select>
+    <input type="text" placeholder="Subject" id="subject" />
   </div>
   <div class="mt-8">
     <label for="message">Message</label>
@@ -31,42 +28,6 @@ excerpt: Enim nobis cupiditate velit pariatur laborum voluptatem.
       rows="10"
       placeholder="Your message"
     ></textarea>
-  </div>
-  <div class="flex">
-    <div class="w-1/2">
-      <div class="mt-8">
-        <label>Radios</label>
-        <div class="mt-4 radio">
-          <input type="radio" id="option-a" name="radios" />
-          <label for="option-a">Option A</label>
-        </div>
-        <div class="mt-2 radio">
-          <input type="radio" id="option-b" name="radios" />
-          <label for="option-b">Option B</label>
-        </div>
-        <div class="mt-2 radio">
-          <input type="radio" id="option-c" name="radios" />
-          <label for="option-c">Option C</label>
-        </div>
-      </div>
-    </div>
-    <div class="w-1/2">
-      <div class="mt-8">
-        <label>Checkboxes</label>
-        <div class="mt-4 checkbox">
-          <input type="checkbox" id="checkbox-a" />
-          <label for="checkbox-a">Option A</label>
-        </div>
-        <div class="mt-2 checkbox">
-          <input type="checkbox" id="checkbox-b" />
-          <label for="checkbox-b">Option B</label>
-        </div>
-        <div class="mt-2 checkbox">
-          <input type="checkbox" id="checkbox-c" />
-          <label for="checkbox-c">Option C</label>
-        </div>
-      </div>
-    </div>
   </div>
   <div class="mt-8">
     <button type="submit" class="button button-primary">
