@@ -30,7 +30,7 @@
     "@arshad/gatsby-theme-page-core": "^1.1.5",
     "@arshad/gatsby-theme-phoenix": "^1.1.6",
     "disqus-react": "^1.0.8",
-    "gatsby": "^2.21.37",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-google-analytics": "^2.3.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
